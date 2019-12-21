@@ -81,7 +81,7 @@ int similar(char *s, char *t, int n)
 
 void print_line(char* str){
   char line[LINE];
-  int print=0,j=0;
+  int print=0;
  for (size_t i = 0; i <LINE; i++){
       print=Get_Line(line);
       if(print==0){
